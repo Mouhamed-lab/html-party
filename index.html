@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Université numérique Cheikh Hamidou Kane</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+ <div class="logo">
+  <svg viewBox="0 0 52 36" fill="none" stroke-width="5" stroke-linecap="round"><path d="M4 4v16a8 8 0 0 0 16 0V4" stroke="#0a7bb5"/><path d="M20 20V8a8 8 0 0 1 16 0v14a8 8 0 0 0 12 6" stroke="#e8872b"/><path d="M28 30a8 8 0 0 0 0-14" stroke="#1e9b3c"/></svg>
+  <div>Université numérique<b>Cheikh Hamidou Kane</b></div>
+ </div>
+ <nav id="nav" aria-label="Navigation principale">
+  <a class="act" href="#">Accueil</a>
+  <a class="has" href="#">Institution</a>
+  <a class="has" href="#">Formations</a>
+  <a href="#">Actualités</a>
+  <a class="has" href="#">Recherche</a>
+  <a class="has" href="#">Vie étudiante</a>
+  <a class="has" href="#">Service à la communauté</a>
+  <a class="contact" href="#">Contact</a>
+ </nav>
+ <div class="side">
+  <button class="menu" id="menuBtn" aria-expanded="false">MENU <i></i></button>
+  <button class="search" aria-label="Rechercher"><i></i></button>
+ </div>
+</header>
+
+<section class="hero" aria-roledescription="carrousel">
+ <div class="thumbs" id="thumbs">
+  <button aria-label="Diapositive 1"></button>
+  <button aria-label="Diapositive 2"></button>
+  <button aria-label="Diapositive 3"></button>
+  <div class="grey"></div>
+ </div>
+ <div class="slides" id="slides">
+  <div class="slide on">
+   <div class="blob"></div>
+   <div>
+    <h1 class="t1">APPEL À CANDIDATURES</h1>
+    <p class="t2">Recrutement d’auditeurs pour la formation continue<br>Année académique 2025/2026</p>
+    <span class="pill red"><span class="cal"></span>Prolongation jusqu’au</span>
+    <span class="pill navy">samedi 03 octobre à 23h59</span>
+    <p class="phase"><b>Phase 1 :</b> Licence 1 et Master 1<br><b>Phase 2 :</b> Licence 2 et 3, Master 2,<br>Certificats et Capacité 2 en Droit</p>
+   </div>
+   <div class="right">
+    <div class="person"></div><div class="logo2">UN·CHK</div>
+    <p class="f1">FORMATION</p>
+    <p class="f2">100% <span>en ligne</span></p>
+    <p class="f3">Accessible où que vous soyez</p>
+    <a class="cta" href="https://admission.unchk.sn">Postulez ici</a>
+    <span class="url">https://admission.unchk.sn</span>
+   </div>
+  </div>
+  <div class="slide s2"><div class="alt"><h2>Étudiez à distance, réussissez partout</h2><p>Cours en ligne, tutorat et ressources numériques disponibles 24h/24.</p><a href="#">Découvrir les formations</a></div></div>
+  <div class="slide s3"><div class="alt"><h2>Recherche et innovation numérique</h2><p>Laboratoires, publications et partenariats au service du Sénégal et de l’Afrique.</p><a href="#">Explorer la recherche</a></div></div>
+  <button class="arrow prev" id="prev" aria-label="Précédent"></button>
+  <button class="arrow next" id="next" aria-label="Suivant"></button>
+ </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
