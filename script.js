@@ -28,3 +28,4 @@
   go(0);
   auto();
 })();
+// Ajout du javascript
